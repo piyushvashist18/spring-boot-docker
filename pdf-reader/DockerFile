@@ -1,4 +1,4 @@
 FROM java:8
 EXPOSE 8080
-ADD /target/pdf-0.0.1-SNAPSHOT.jar pdf-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","pdf-0.0.1-SNAPSHOT.jar"]
+ADD /target/pdf-bill-reader-0.0.1-SNAPSHOT.jar pdf-bill-reader-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","pdf-bill-reader-0.0.1-SNAPSHOT.jar"]
